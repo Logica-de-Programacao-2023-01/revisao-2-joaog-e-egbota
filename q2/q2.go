@@ -1,7 +1,5 @@
 package q2
 
-import "errors"
-
 //Você é um desenvolvedor de software em uma empresa financeira e está trabalhando em um sistema de folha de pagamento.
 //Cada funcionário possui um ID único, nome, cargo, salário base e um conjunto de bônus mensais. Você decidiu usar uma
 //struct para representar as informações de cada funcionário.
@@ -20,6 +18,6 @@ type Employee struct {
 }
 
 func CalculateTotalSalary(employee *Employee) (float64, error) {
-	// Seu código aqui
-	return 0, errors.New("Not implemented yet")
+
+	return 0, nil
 }
